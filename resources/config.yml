@@ -1,0 +1,30 @@
+---
+# do not use localhost for server it doesnt work - use 127.0.0.1 instead
+mysql-server: 127.0.0.1
+mysql-user: username
+mysql-pass: password
+database: pocketmine
+# faction settings - change with extreme caution, could mess up an already started world
+max-power-per-person: 4
+power-loss-on-death: 1
+power-use-per-plot: 1
+power-regen-rate-per-min: 0.01
+# tables created by buddypress - you may be using a prefix
+buddypress-bp_groups_members-tablename: bp_groups_members
+buddypress-bp_groups-tablename: bp_groups
+# tables created by wordpress - you be using a prefix
+wordpress-users-tablename: users
+# tables that will be created and belong to buddyfactions
+buddyfactions-users-table: buddyfactions_users
+# name, namewcaps, factionid, power
+buddyfactions-plots-table: buddyfactions_plots
+# startX, startZ, factionid
+buddyfactions-factions-table: buddyfactions_factions
+# id, bpgroupid, usercount, power, maxpower
+buddyfactions-realationships-table: buddyfactions_relationships
+# TODO
+buddyfactions-events-table: buddyfactions_events
+# factionid, pla
+# website to mention when telling players where to do groups
+website: "HTTPS://YOURWEBSITE.WHATEVER"
+...
